@@ -5,11 +5,7 @@ on:
     branches:
       - Main
       - supermerill-Main
-      - Nigthly
-      - nightly_dev
-      - nightly_master
-      - debug_win
-      - dev
+      - A3DP-Branch
 
 jobs:
   build_dep:
