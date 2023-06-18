@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - run: Get-PSDrive
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v3
     - uses: ilammy/msvc-dev-cmd@v1
     - name: mkdir in deps
       run: mkdir deps/build
