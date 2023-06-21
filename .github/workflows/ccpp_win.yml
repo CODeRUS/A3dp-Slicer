@@ -14,7 +14,7 @@ jobs:
     - name: Checkout
       run: |
         mkdir C:/a3dp
-        git clone https://github.com/CODeRUS/A3dp-Slicer.git --branch ${GITHUB_REF_NAME} C:/a3dp --depth 1
+        git clone https://github.com/CODeRUS/A3dp-Slicer.git C:/a3dp --depth 1 --branch ${GITHUB_REF_NAME} 
     - uses: ilammy/msvc-dev-cmd@v1
     - name: mkdir in deps
       working-directory: C:/a3dp
